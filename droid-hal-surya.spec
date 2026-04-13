@@ -9,7 +9,7 @@
 
 %define droid_target_aarch64 1
 
-#define installable_zip 1
+%define installable_zip 1
 
 %define straggler_files \
 /bugreports\
