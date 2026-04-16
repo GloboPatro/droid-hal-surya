@@ -11,6 +11,8 @@
 
 %define installable_zip 1
 
+%define makefstab_skip_entries / /product /system /system_ext /vendor /odm
+
 %define straggler_files \
 /bugreports\
 /d\
